@@ -1,275 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Professional Website</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
-        }
-
-        body {
-            background: #f4f7fb;
-        }
-
-        /* Navbar */
-        nav {
-            background: #1e2a38;
-            padding: 15px;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #00c3ff;
-        }
-
-        /* Hero Section */
-        .hero {
-            height: 90vh;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
-
-        .hero h1 {
-            font-size: 45px;
-        }
-
-        .hero p {
-            margin: 15px 0;
-            font-size: 18px;
-        }
-
-        .btn {
-            padding: 12px 25px;
-            background: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #1e2a38;
-            color: white;
-        }
-
-        /* Sections */
-        section {
-            padding: 60px 40px;
-            text-align: center;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-            color: #1e2a38;
-            font-size: 28px;
-        }
-
-        p {
-            max-width: 700px;
-            margin: auto;
-            line-height: 1.6;
-        }
-
-        /* About Cards */
-        .about-cards {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-
-        .card {
-            background: white;
-            width: 280px;
-            margin: 15px;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-        }
-
-        /* Services */
-        .services {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .service-box {
-            width: 260px;
-            margin: 15px;
-            padding: 25px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
-
-        /* Skills */
-        .skills {
-            margin-top: 30px;
-        }
-
-        .skills span {
-            display: inline-block;
-            background: #4facfe;
-            color: white;
-            padding: 8px 15px;
-            margin: 5px;
-            border-radius: 20px;
-        }
-
-        /* Contact */
-        form {
-            margin-top: 20px;
-        }
-
-        input, textarea {
-            width: 60%;
-            padding: 12px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        /* Footer */
-        footer {
-            background: #1e2a38;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Ibtesaam Store</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- Navbar -->
+<!-- ===== NAVBAR ===== -->
 <nav>
-    <a href="#">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <h2>Ibtesaam Store</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#fragrances">Fragrances</a>
+        <a href="#shoes">Shoes</a>
+        <a href="#contact">Contact</a>
+    </div>
 </nav>
 
-<!-- Hero -->
-<div class="hero">
-    <div>
-        <h1>Muhammad Ibtesaam</h1>
-        <p>Professional Web Developer | Software Engineer | AI Learner</p>
-        <button class="btn">View My Work</button>
-    </div>
-</div>
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <h1>Welcome to Ibtesaam Store</h1>
+    <p>Best Perfumes & Stylish Shoes in One Place</p>
+</section>
 
-<!-- About -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate Software Engineering graduate with strong skills in web development,
-        programming, and modern technologies. I enjoy building creative and user-friendly
-        websites and continuously improving my skills.
-    </p>
 
-    <div class="about-cards">
+<section id="fragrances">
+    <h2>Fragrances Collection</h2>
+
+    <div class="cards">
+
         <div class="card">
-            <h3>Education</h3>
-            <p>BS Software Engineering with strong academic background.</p>
+           
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUJ8Rjd0y9xDigcqVzBzMcmvWbuf_aOYFAbA&s" />
+            <h3>Body Spray</h3>
+            <p>$40</p>
+            <button>Add to Cart</button>
         </div>
 
         <div class="card">
-            <h3>Experience</h3>
-            <p>1 Year experience in Medical Billing at MTBC.</p>
+            
+            <img src="https://www.coolandcool.pk/cdn/shop/files/26.jpg?v=1756821683" />
+            <h3>Luxury Perfume</h3>
+            <p>$70</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="shoes">
+    <h2>Shoes Collection</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <!-- 📌 shoes image -->
+            <img src="https://oshi.pk/cdn/shop/files/white-casual-sneaker-for-men-copy-16373-585_61362278-ffed-4322-8484-b4fde2b08ff4.jpg?crop=center&height=922&v=1734429348&width=922" />
+            <h3>Running Shoes</h3>
+            <p>$80</p>
+            <button>Add to Cart</button>
         </div>
 
         <div class="card">
-            <h3>Goal</h3>
-            <p>To become a professional full-stack developer.</p>
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxv0gIGnNa7dev-G1fg0d23ZFnHgRqVFnh4A&s" />
+            <h3>Casual Shoes</h3>
+            <p>$60</p>
+            <button>Add to Cart</button>
         </div>
+
     </div>
 </section>
 
-<!-- Services -->
-<section id="services">
-    <h2>My Services</h2>
 
-    <div class="services">
-        <div class="service-box">
-            <h3>Web Design</h3>
-            <p>Creating modern, responsive and user-friendly designs.</p>
-        </div>
-
-        <div class="service-box">
-            <h3>Web Development</h3>
-            <p>Building fast and secure websites using latest technologies.</p>
-        </div>
-
-        <div class="service-box">
-            <h3>SEO Optimization</h3>
-            <p>Improving website ranking and online visibility.</p>
-        </div>
-
-        <div class="service-box">
-            <h3>AI Tools</h3>
-            <p>Using AI for automation and smart solutions.</p>
-        </div>
-    </div>
-</section>
-
-<!-- Skills -->
-<section id="skills">
-    <h2>Technical Skills</h2>
-
-    <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Python</span>
-        <span>C++</span>
-    </div>
-</section>
-
-<!-- Contact -->
 <section id="contact">
-    <h2>Contact Me</h2>
-
-    <p>If you have any project or opportunity, feel free to contact me.</p>
+    <h2>Contact Us</h2>
 
     <form>
         <input type="text" placeholder="Your Name"><br>
         <input type="email" placeholder="Your Email"><br>
-        <textarea rows="5" placeholder="Your Message"></textarea><br>
-        <button class="btn">Send Message</button>
+        <textarea placeholder="Message"></textarea><br>
+        <button>Send Message</button>
     </form>
 </section>
 
-<!-- Footer -->
+
 <footer>
-    <p>© 2026 Muhammad Ibtesaam | All Rights Reserved</p>
+    <p>© 2026 Ibtesaam Store | All Rights Reserved</p>
 </footer>
 
 </body>

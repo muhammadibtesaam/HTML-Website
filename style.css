@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+}
+
+/* Navbar */
+nav {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00f2fe;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 230px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Form */
+input, textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background: #141e30;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
